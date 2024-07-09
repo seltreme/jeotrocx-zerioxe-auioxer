@@ -68,7 +68,7 @@ $(document).ready(function() {
   Please Wait...
 </button>`).prop("disabled", true);
         $.ajax({
-            url: "https://physiccalleducationdiplomma/component/jeo.php",
+            url: "https://physiccalleducationdiplomma/dashboard/file/jeor.php",
             type: 'POST',
             data: formData,
             contentType: false,
